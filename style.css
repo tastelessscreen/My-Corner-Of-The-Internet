@@ -2,26 +2,8 @@ H1{
     text-align: center;
 }
 body{
-    background-image:url(seaglass.jpg);
+    background-image:url(bg.jpg);
     background-repeat: repeat;
     background-attachment:fixed;
-    overflow: hidden;
-    /* background-size:*/
-}
-.container{
-    border-width: 7px;
-    border-style: solid;
-   /* border-image: ;*/
-    margin: auto;
-    width: 844px;
-    height: 655px;
-    position: relative;
-    padding: 5px;
-    z-index: 4;
-}
-.container-one{
-    border-width: 1px;
-    border-color:white;
-    border-style: solid;
-    
+   background-size:cover
 }
