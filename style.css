@@ -7,3 +7,29 @@ body{
     background-attachment:fixed;
    background-size:cover
 }
+#into {
+  color: black;
+  background: #ddd;
+  padding: 15px 20px 15px 15px;
+  background-clip: padding-box;
+  border-image-outset: 3px;
+  border-image-slice: 25 32 25 25;
+  border-image-width: 25px 32px 25px 25px;
+  border-image-repeat: round;
+  border-style: solid;
+  border-color: transparent;
+  image-rendering: pixelated;
+  border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA0CAMAAAADrbBUAAAANlBMVEUAAAAAAADd3d27u7vu7u7v7+////8zmf8zmcxERERCQkKZzP9mmcx3d3dmZmbe3t4zMzMzZsy5ynpyAAAAAXRSTlMAQObYZgAAAddJREFUeNql1ge64yAMBGAkYqXH2ftfdmHwGAhKYXdeDfp+dwvCfCRlGMn5wWmK9GMR+ciL0x6L6oGa3JELGHGlh4NBk8sgbVkGTJp+oI/HI2p9Euyx9LSIY4ky2+V5xfJKlZzZ4IhFZaDkAgfoYJEIO1JVy2X8cbHk6xmC+BR5hzMt5+vT95g0252aaczRyNQPuUgsJ1hg0vPZ8mcLTfjRLhdiOZ1AYUFpSXtcrVYLrBsGjcHHG9VEW3vFIJCF0UYrfzTnli1ptaCeDebbiiOoY1mo1LEW3ljgagulzTjavhdjBf/yQmT6arnj/ezudyO9P3j1DDbRwV7VomvvtCFT35rSDsfMgr2z12r7VJvoYIF/saD/add/scC0c+ertPPXWY12+v5GU3Wtqlq1D+e5Cro/HOvU88xnUmln3qNUa+w68/7yHST+vW9g/IsF/thz2OvWX/tktLZPLtJYWTb6vLj9GSP2fLa9Pe62YLvAEvu9nXNKwfs6YuV8ZHGckNRsbeYy2oXYnfzMmUOJBZ897FPO3ZLt6uP8sr6jCYuukuyA4WoGimQ7YhnTUUZChwH/eIs66Sgt8FoqWNcR/rQm5J6LJHX0QImrnFsDB6GcXntzdHLN/xdCzBp0nA697gAAAABJRU5ErkJggg==");
+}
+
+#window {
+    border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAvElEQVR4AeyYOw7AMAhD2+65/0FzgHYyC4NFBCpIrhRZ+QDuC1OetdY7YTzXkM+M7r3vjgMczSgWuqozin6FYTbHuWp1RqsLnuZ3RtGnSMjmOFetzmh1wdP8ZhS92E3xY2YUC13VjKIXuynAmVEsdFUZzb4ZERXRbALZ+dSjIppNIDufevQvotl1w/l09WFkJEBECaDwtoiGkZEAESWAwtsiGkZGAkSUAApvi2gYGQmYR7Tbuyj8APQYoh8AAAD//8Zd9I8AAAAGSURBVAMAH+V4oCABbvoAAAAASUVORK5CYII=') 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid; 
+}
+header{
+    background-color: aliceblue;
+}
+.side{
+    background-color: aliceblue;
+}
